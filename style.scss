@@ -16,7 +16,8 @@
 html {
   font-size: 100%;
 }
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
@@ -31,7 +32,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+font-family: 'Noto Sans Arabic', sans-serif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -66,6 +67,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-family: 'Noto Sans Arabic', sans-serif;
 }
 
 a {
@@ -76,7 +78,7 @@ a {
     color: $blue;
   }
 }
-
+<style/>
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
