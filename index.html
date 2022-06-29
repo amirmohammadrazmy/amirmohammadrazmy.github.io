@@ -6,16 +6,14 @@ published: true
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
-      <h1 dir="rtl" font-family: 'Noto Sans Arabic', sans-serif; ><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div dir="rtl" font-family: 'Noto Sans Arabic', sans-serif; class="entry">
+      <h1 dir="rtl" ><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div dir="rtl" class="entry">
         {{ post.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">ادامه مقاله را بخوانید</a>
-  <style/>  
   </article>
   {% endfor %}
 </div>
